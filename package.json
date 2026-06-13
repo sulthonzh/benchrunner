@@ -1,0 +1,12 @@
+{
+  "name": "benchrunner",
+  "version": "1.0.0",
+  "description": "Zero-dep JavaScript benchmarking runner with statistical analysis",
+  "main": "index.js",
+  "bin": { "benchrunner": "./cli.js" },
+  "scripts": { "test": "node test.js" },
+  "keywords": ["benchmark", "performance", "stats", "runner", "zero-dependencies"],
+  "license": "MIT",
+  "author": "sulthonzh",
+  "repository": { "type": "git", "url": "https://github.com/sulthonzh/benchrunner" }
+}
