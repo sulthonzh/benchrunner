@@ -3,10 +3,36 @@
   "version": "1.0.0",
   "description": "Zero-dep JavaScript benchmarking runner with statistical analysis",
   "main": "index.js",
-  "bin": { "benchrunner": "./cli.js" },
-  "scripts": { "test": "node test.js" },
-  "keywords": ["benchmark", "performance", "stats", "runner", "zero-dependencies"],
+  "bin": {
+    "benchrunner": "./cli.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "benchmark",
+    "performance",
+    "stats",
+    "runner",
+    "zero-dependencies"
+  ],
   "license": "MIT",
   "author": "sulthonzh",
-  "repository": { "type": "git", "url": "https://github.com/sulthonzh/benchrunner" }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sulthonzh/benchrunner"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "homepage": "https://github.com/sulthonzh/benchrunner#readme",
+  "bugs": {
+    "url": "https://github.com/sulthonzh/benchrunner/issues"
+  }
 }
