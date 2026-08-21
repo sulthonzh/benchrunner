@@ -17,7 +17,7 @@ Usage:
 The JS file should export a suite or use the global API:
 
   // bench/my-bench.js
-  const { suite } = require('benchrunner');
+  const { suite } = require('@sulthonzh/benchrunner');
 
   suite('my benchmarks')
     .add('method A', () => { /* ... */ })

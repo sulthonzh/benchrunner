@@ -11,13 +11,13 @@ Most benchmarking tools are either heavy or toy examples. benchrunner gives you 
 ## Install
 
 ```bash
-npm install benchrunner
+npm install @sulthonzh/benchrunner
 ```
 
 ## Quick Start
 
 ```js
-const { suite } = require('benchrunner');
+const { suite } = require('@sulthonzh/benchrunner');
 
 suite('string concat')
   .add('+= operator', () => {
